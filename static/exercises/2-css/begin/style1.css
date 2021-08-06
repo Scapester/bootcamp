@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: whitesmoke;
+}
+
+img {
+    border: solid 10px greenyellow;
+}
+
+h1 {
+    border: dotted 5px pink;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+
+blockquote cite {
+    font-size: 1.5rem;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.narrow {
+    display: block;
+    block-size: 300px;
+    color: green;
+    background: lightblue;
+    
+}
+
+.narrow img {
+    float: left;
+    shape-outside: url('https://picsum.photos/200/300');
+    inline-size: 200px;
+    block-size: 300px;
+    border: none; 
+    margin: 4px; 
+}
